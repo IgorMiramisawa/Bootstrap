@@ -9,11 +9,11 @@
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
     crossorigin="anonymous">
-
+  
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <a class="navbar-brand" href="#">JAssisto</a>
+        <a class="navbar-brand" href="./indxex.html">F1 Noticias</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,9 +29,9 @@
                 Categoria
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Filmes</a>
-                <a class="dropdown-item" href="#">Séries</a>
-                <a class="dropdown-item" href="#">Animes</a>
+                <a class="dropdown-item" href="#">Equipes</a>
+                <a class="dropdown-item" href="#">Noticias</a>
+                <a class="dropdown-item" href="#">Pilotos</a>
               </div>
             </li>
           </ul>
@@ -40,30 +40,95 @@
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
           </form>
         </div>
-      </nav>
+    </nav>
 
-      <div class="container">
-        <div class="row mt-5 d-flex justify-content-center">
-          <div class=" col md-8 bg-danger">
-           8
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://istoe.com.br/wp-content/uploads/sites/14/2021/07/f1-2022-1280x720.jpg" alt="Primeiro Slide">
           </div>
-          <div class="col md-4 bg-warning">
-            4
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://s3.glbimg.com/v1/AUTH_08fb001c60b847468664307c11fa9dc9/public/2021/3/ummo2WY09Ti3JJobimmE.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.salaodocarro.com.br/_upload/content/2016/06/27/video-compara-velocidade-f1-carros-competicao_album.jpg" alt="Terceiro Slide">
           </div>
         </div>
-
-        <div class="row mt-5 d-flex justify-content-center">
-          <div class="col md-2 bg-info">
-            1 de 3
-          </div>
-          <div class="col md-8 bg-dark">
-            2 de 3
-          </div>
-          <div class="col md-2 bg-primary">
-            3 de 3
-          </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Notícias formula 1</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eius inventore voluptatem qui cumque hic non, magni eligendi suscipit, accusantium incidunt, quidem consequatur iure dolorem? Fugit quisquam id distinctio illo?</p>
         </div>
       </div>
+
+      <div class="container-fluid">
+        <div class="card-deck">
+            <div class="card p-5">
+              <img class="card-img-top" src="./assets/img/gettyimages-1359325600.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Max Verstappen</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores quos accusantium voluptatibus in porro debitis repudiandae rerum quaerat eos minima fuga ut quis adipisci placeat aut aspernatur enim, accusamus unde?</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card p-5">
+              <img class="card-img-top" src="./assets/img/_01_williams_f1_novo_carro.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Williams</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil minima numquam nostrum doloremque quo mollitia veritatis nisi esse est laboriosam voluptatem ad, sit cumque? Ex reiciendis tempora error tenetur sit?</p>
+                <p class="card-text"><small class="text-muted">Atualizados 5 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card p-5">
+              <img class="card-img-top" src="./assets/img/o-at03-sera-pilotado-por-pierre-gasly-e-yuki-tsunoda-divulgacao-alphatauri.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">AlphaTauri</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis impedit suscipit at asperiores, velit enim quaerat nobis eos exercitationem esse. Distinctio totam eos temporibus maxime suscipit corrupti at. Facere, ratione.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 6 minutos atrás</small></p>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+      <footer >
+          
+        <div class="row ">
+            <div class="col-md-12 d-flex justify-content-center">
+                
+                    <a href="https://www.facebook.com/profile.php?id=100009997562113" class="p-3"><img class="tm-icone p-30" src="./assets/img/facebook.png" alt=""></a>
+      
+                    <a href="https://www.linkedin.com/in/igor-miramisawa-de-souza-633259221/" class="p-3"><img class="tm-icone p-30" src="./assets/img/linkedin.png" alt=""></a>
+      
+                    <a href="https://www.instagram.com/igormiramisawa/" class="p-3"><img class="tm-icone p-30" src="./assets/img/instagram.png" alt=""></a>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">
+                    Todos os direitos reservados para: 2022 Igor Miramisawa: You Emplayed, Inc. &copy
+                    </p>
+            </div>
+            
+        </div>
+            
+    
+     </footer>
+
+      
 
 
 
